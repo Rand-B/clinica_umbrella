@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.cabeçalho {
+    height: 100px;
+    background-color: black;
+}
+
+#img-logo {
+    width: 100px;
+    height: 100px;
+}
+
+#nome-logo {
+    color: white;
+    font-size: 50pt;
+    font-family: 'Indie Flower', cursive;
+}
+
+.bodycontainer {
+    min-height: 80vh;
+    max-height: 200vh;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+}
