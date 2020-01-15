@@ -10,7 +10,20 @@
 <body>
 <header>
     <div class="container cabeçalho">
-        <img id="img-logo" src="img/umbrella.png" alt="Logo">
-        <span id="nome-logo">Clínica Umbrella</span>
+        <a href="?pagina=home">
+            <img id="img-logo" src="img/umbrella.png" alt="Logo">
+            <span id="nome-logo">Clínica Umbrella</span>
+        </a>
+        <div class="menu">
+            <ul>
+                <a href="?pagina=login">
+                    <li class="botao">
+                        Fazer login
+                    </li>
+            
+                 </a>
+            </ul>
+        </div>
+        
     </div>
 </header>   
