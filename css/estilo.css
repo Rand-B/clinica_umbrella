@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
 body {
     margin: 0;
 }
@@ -8,9 +8,16 @@ body {
     padding: 10px 15px;
 }
 
+.container,
+.body-container {
+    width: 60%;
+    padding: 10px 20%;
+}
+
 .cabeçalho {
     height: 100px;
     background-color: black;
+    display: inline-flex;
 }
 
 #img-logo {
@@ -21,10 +28,10 @@ body {
 #nome-logo {
     color: white;
     font-size: 50pt;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'PT Serif', serif;
 }
 
-.bodycontainer {
+.body-container {
     min-height: 80vh;
 }
 
@@ -34,4 +41,73 @@ footer {
     color: white;
     font-size: 14pt;
     text-align: center;
+}
+
+#img-home {
+    margin: 25px auto;
+    width: 700px;
+    height: 700px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.cabeçalho>* {
+    vertical-align: middle;
+}
+
+.cabeçalho a {
+    text-decoration: none;
+}
+
+.cabeçalho .menu {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.cabeçalho .menu ul {
+    flex-direction: row;
+    display: table;
+    border-spacing: 5px;
+    list-style: none;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-right: auto !important;
+}
+
+.cabeçalho a {
+    color: white;
+}
+
+.cabeçalho .menu ul li {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 90px;
+    height: 40px;
+    border-radius: 0.25rem;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.cabeçalho .menu ul li:hover {
+    height: 80px;
+}
+
+.botao {
+    border: none;
+    border-radius: 0.25rem;
+    background: linear-gradient(to bottom, rgb(168, 0, 0), #b90202);
+    padding: 2px 15px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+#nome-botão {
+    background-color: greenyellow;
 }
