@@ -1,4 +1,6 @@
-<?php include_once 'header.php'; ?>
+<?php session_start();
+
+include_once 'header.php'; ?>
 
 <div class="body-container">
     <?php
