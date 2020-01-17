@@ -16,12 +16,41 @@
         </a>
         <div class="menu">
             <ul>
+                <?php if (isset($_SESSION['usuario_fez_login'])) { ?>
+                    
+                    <a href="?pagina=home">
+                    <li class="botao">
+                        Consultas
+                    </li>
+            
+                 </a>
+
+                 <a href="?pagina=home">
+                    <li class="botao">
+                        Pacientes
+                    </li>
+            
+                 </a>
+
+                 <a href="?pagina=home">
+                    <li class="botao">
+                        Médicos
+                    </li>
+                    
+                 </a>
+
+                 <a href="sair.php"> Logoff </a>
+
+                <?php } else { ?>
                 <a href="?pagina=login">
                     <li class="botao">
                         Fazer login
                     </li>
             
                  </a>
+
+                <?php } ?>
+
             </ul>
         </div>
         
