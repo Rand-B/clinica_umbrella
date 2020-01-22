@@ -10,14 +10,8 @@ body {
     padding: 10px 15px;
 }
 
-.container,
-.body-container {
-    width: 60%;
-    padding: 10px 20%;
-}
-
-.cabeçalho {
-    height: 100px;
+header {
+    height: 150px;
     background-color: black;
     display: inline-flex;
 }
