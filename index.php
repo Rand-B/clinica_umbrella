@@ -2,7 +2,7 @@
 
 include_once 'header.php'; ?>
 
-<div class="body-container">
+<div class="body-container container">
     <?php
 
     $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 'home';
@@ -13,6 +13,12 @@ include_once 'header.php'; ?>
             break;
         case 'home':
             include_once 'view/home.php';
+            break;
+        case 'pacientes':
+            include_once 'view/paciente.php';
+            break;
+        case 'salvarPaciente':
+            include_once 'view/salvarPaciente.php';
             break;
         default:
             include_once 'view/home.php';
