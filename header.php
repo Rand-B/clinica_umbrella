@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/datatables.min.css">
     <title>Document</title>
 </head>
 <body>
-<header>
+    <header>
+        <nav class="navbar sticked-top">
     <div class="container cabeçalho">
         <a href="?pagina=home">
             <img id="img-logo" src="img/umbrella.png" alt="Logo">
@@ -25,7 +28,7 @@
             
                  </a>
 
-                 <a href="?pagina=home">
+                 <a href="?pagina=pacientes">
                     <li class="botao">
                         Pacientes
                     </li>
@@ -55,4 +58,6 @@
         </div>
         
     </div>
+    </nav>
+
 </header>   
