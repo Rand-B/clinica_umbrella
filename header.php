@@ -21,7 +21,7 @@
             <ul>
                 <?php if (isset($_SESSION['usuario_fez_login'])) { ?>
                     
-                    <a href="?pagina=home">
+                    <a href="?pagina=consultas">
                     <li class="botao">
                         Consultas
                     </li>
@@ -35,7 +35,7 @@
             
                  </a>
 
-                 <a href="?pagina=home">
+                 <a href="?pagina=medicos">
                     <li class="botao">
                         Médicos
                     </li>
