@@ -1,9 +1,10 @@
-<?php 
-
-    require 'src/paciente/listar.php'; ?>
+<?php require 'src/paciente/listar.php'; ?>
 
     <br><br><br>
     <table class="table table-bordered table-hover table-striped" style="width: 100%"  id="tabela-pacientes">
+        <caption>
+        <a class="btn btn-sucess" href="?pagina=salvarPaciente">Cadastrar</a>
+        </caption>
         <thead>
         <tr>
             <th>Nome</th>
