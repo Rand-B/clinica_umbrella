@@ -1,7 +1,7 @@
 <?php
 
     // conexão com o banco
-    require 'src/conexao-com-banco.php';
+    require '../conexao-com-banco.php';
 
     // pegar ID
     $pacienteId = isset($_GET['id']) ? $_GET['id'] : 0;
