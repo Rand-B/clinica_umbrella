@@ -1,11 +1,11 @@
 <?php
 
     // conexão com o BD
-    require 'src/conexao-com-banco.php';
+    require '../conexao-com-banco.php';
 
     //receber dados POST
     $id = isset($_POST['id']) ? $_POST['id'] : null;
-    $nome = isset($_POST['nome']) ? $_POST['id'] : null;
+    $nome = isset($_POST['nome']) ? $_POST['nome'] : null;
     $data_nascimento = isset($_POST['data_nascimento']) ? $_POST['data_nascimento'] : null;
     $cpf = isset($_POST['cpf']) ? $_POST['cpf'] : null;
 
@@ -35,12 +35,13 @@
 
         // faz a query
         mysqli_query($conexao, $sql);
-
+        
         // retorna para página pacientes
         header('location: http://localhost/clinica_umbrella/index.php?pagina=pacientes');
     // se não... 
     } else {
 
         // retornar para página de cadastro
-        header('location: http://localhost/clinica_umbrella/index.php?pagina=pacientes&err= Dados inválidos');
+        header('location: http://localhost/clinica_umbrella/index.php?pagina=salvarPaciente&err= Dados inválidos');
     }
+    ?>
