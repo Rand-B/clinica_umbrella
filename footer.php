@@ -6,6 +6,8 @@
     <script>
 $(document).ready( function () {
     $('#tabela-pacientes').DataTable();
+    $('#tabela-medicos').DataTable();
+    $('#tabela-consultas').DataTable();
 } );
 </script>
 </footer>
